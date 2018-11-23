@@ -56,7 +56,7 @@
 
 int dtls_server_main(int argc, char **argv)
 {
-	printf("MBEDTLS_SSL_SRV_C and/or MBEDTLS_SSL_PROTO_DTLS and/or\n");
+	print("MBEDTLS_SSL_SRV_C and/or MBEDTLS_SSL_PROTO_DTLS and/or\n");
 	printf("MBEDTLS_SSL_COOKIE_C and/or MBEDTLS_NET_C and/or\n");
 	printf("MBEDTLS_ENTROPY_C and/or MBEDTLS_CTR_DRBG_C and/or\n");
 	printf("MBEDTLS_X509_CRT_PARSE_C and/or MBEDTLS_RSA_C and/or\n");
